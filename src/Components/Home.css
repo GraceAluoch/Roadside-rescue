@@ -1,0 +1,102 @@
+.background-image {
+    background-image: url(/src/Images/img1.jpg); 
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .centered-input {
+    margin-top: 15vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+     background-color: #e95f0aea;
+     padding: 2.3vw;
+     border-radius: 1.1vw;
+     opacity: .7;
+     text-align: center;
+  }
+  
+  .centered-input input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .text h1{
+    font-style:inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    font-size: 3.3vw;
+    padding-bottom: 1vw;
+    color: #000;
+    z-index: 10;
+}
+
+.text p{
+    font-size: 1.8vw;
+    font-family: cursive;
+    font-style: initial;
+    font-weight: 600;
+    color: #000;
+}
+
+  /* WHY CHOOSE US STYLING */
+
+  .why-choose-us-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+  }
+  .feature-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .feature {
+    width: 24%;
+    text-align: center;
+  }
+  
+  .feature img {
+    width: 20vh;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .feature h2 {
+    margin-bottom: 10px;
+  }
+
+  /* why choose us TITLE styling */
+  .title{
+    width: 80%;
+    margin-bottom: 5vh;
+    
+   
+}
+
+.title h1{
+    padding-bottom: 5px;
+    font-weight: 700;
+    font-size:3vh;
+    border-bottom: 3px solid #FF6000;
+    width: 200px;
+    transition: all ease-in .5s;
+}
+
+.title{
+    border-bottom: 3px solid #ec2b09;
+    width: 310px;
+    transition: all ease-in .5s;
+}
+
+.title:hover{
+    transition: all ease-in .5s;
+}
